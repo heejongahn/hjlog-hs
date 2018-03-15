@@ -1,7 +1,7 @@
 name:                hjlog-hs
 version:             0.1.0.0
 github:              "heejongahn/hjlog-hs"
-license:             BSD3
+license:             MIT
 author:              "Ahn Heejong"
 maintainer:          "heejongahn@gmail.com"
 copyright:           "2018 Ahn Heejong"
