@@ -21,11 +21,19 @@ description:         Please see the README on Github at <https://github.com/heej
 
 dependencies:
 - base >= 4.7 && < 5
+- aeson
+- monad-logger
+- persistent
+- persistent-sqlite
+- persistent-template
+- servant
 - servant-server
+- string-conversions
+- text
+- time
+- transformers
 - wai
 - warp
-- aeson
-- transformers
 
 library:
   source-dirs: src
@@ -33,7 +41,7 @@ library:
 executables:
   hjlog-hs-exe:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         src
     ghc-options:
     - -threaded
     - -rtsopts
